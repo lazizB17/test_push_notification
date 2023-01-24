@@ -1,0 +1,44 @@
+name: test_push_notification
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # for push notifications
+  firebase_core: ^2.4.1
+  firebase_messaging: ^14.2.1
+  # for authentication
+  firebase_auth: ^4.2.5
+  # for lottie animations
+  lottie: any
+  # for device responsive
+  flutter_screenutil: ^5.6.0
+  # for sms code
+  pinput: ^2.2.21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/verification.json
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
